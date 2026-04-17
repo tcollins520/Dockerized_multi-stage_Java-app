@@ -18,8 +18,7 @@ LABEL "Author"="Tina"
 
 #2a remove the default application image that comes with the Tomcat Image
 RUN rm -rf /usr/local/tomcat/webapps/*
-#2b copy build Artifact that was generated in step 1 to the Tomcat image so that image can be displayed on our website
-=======
+
 #2b copy Artifact that was generated in step 1 to the Tomcat image so that image can be displayed on our website
 # copy the previous built artifact from above(BUILD_IMAGE) to tomcat home directory with the name ROOT.war
 # when the image is complete, we will have a Docker Image, with Tomcat service that will host our application.
