@@ -42,6 +42,6 @@ services:
       volumes:
          - vproappdata:/usr/local/tomcat/webapps 
 volumes:
-  # create host volumes
+  #create host volumes
    vprodbdata: {}
    vproappdata: {}
