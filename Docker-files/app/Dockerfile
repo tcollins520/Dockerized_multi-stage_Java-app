@@ -27,5 +27,5 @@ COPY --from=BUILD_IMAGE vprofile-project/target/vprofile-v2.war /usr/local/tomca
 # expose the port you would like your container to listen on
 EXPOSE 8080
 
-# run command inside of the container
+# run command inside of the container to start it
 CMD ["catalina.sh", "run"]
