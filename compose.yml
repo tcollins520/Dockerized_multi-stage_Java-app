@@ -35,7 +35,7 @@ services:
    vproweb:
       build:
          context: ./Docker-files/web
-      image: vprocontainers/vprofileapp
+      image: vprocontainers/vprofileweb
       container_name: vproweb
       ports: 
          - "80:80"
