@@ -25,7 +25,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 COPY --from=BUILD_IMAGE vprofile-project/target/vprofile-v2.war /usr/local/tomcat/webapps/ROOT.war
 
 # expose the port you would like your container to listen on
-EXPOSE 8080
+EXPOSE 8081
 
 # run command inside of the container to start it
 CMD ["catalina.sh", "run"]
