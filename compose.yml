@@ -5,7 +5,7 @@ services:
       image: tcollins520/vprofiledb
       container_name: vprodb
       ports: 
-         - "3306:3306"
+         - "3307:3306"
       volumes:
          - vprodbdata:/var/lib/mysql
       environment:
@@ -38,7 +38,7 @@ services:
       image: tcollins520/vprofileweb
       container_name: vproweb
       ports: 
-         - "80:80"
+         - "81:80"
       volumes:
          - vproappdata:/usr/local/tomcat/webapps 
 volumes:
