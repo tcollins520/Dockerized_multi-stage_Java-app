@@ -26,7 +26,7 @@ services:
    vproapp:
       build:
          context: ./Docker-files/app
-      image: tcollins520/vprofileapp:v2
+      image: tcollins520/vprofileapp:v3
       container_name: vproapp
       ports: 
          - "8080:8080"
@@ -38,7 +38,7 @@ services:
       image: tcollins520/vprofileweb
       container_name: vproweb
       ports: 
-         - "81:80"
+         - "80:80"
       volumes:
          - vproappdata:/usr/local/tomcat/webapps 
 volumes:
