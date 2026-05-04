@@ -2,7 +2,7 @@
 
 #1 fetch and build the artifact
 # Use Base Image Maven build image that will be used to build our own customized image
-FROM maven:3.9.9-eclipse-temurin-21-jammy AS BUILD_IMAGE
+FROM maven:3.9.9-eclipse-temurin-21 AS BUILD_IMAGE
 #1 fetch source code from github that will build with Maven
 RUN git clone https://github.com/hkhcoder/vprofile-project.git
 # ADD ../../ vprofile-project
