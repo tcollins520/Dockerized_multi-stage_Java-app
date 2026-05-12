@@ -1,13 +1,10 @@
 # Prerequisites
 #
-- JDK 11 
+- JDK 21
 - Maven 3 
 - MySQL 8
 
 # Technologies 
-- Spring MVC
-- Spring Security
-- Spring Data JPA
 - Maven
 - JSP
 - Tomcat
@@ -15,6 +12,9 @@
 - Memcached
 - Rabbitmq
 - ElasticSearch
+- Docker Engine
+- Docker Hub
+- Docker Compose
 # Database
 Here,we used Mysql DB 
 sql dump file:
